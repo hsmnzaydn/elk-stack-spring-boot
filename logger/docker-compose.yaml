@@ -1,0 +1,7 @@
+version: '3'
+services:
+    logger:
+        image: logger
+        container_name: logger
+        ports: 
+            - "8080:8080"
